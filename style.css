@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-color: #DDD0C8;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #323232;
+    color: aliceblue;
+}
+.header .nav h1{
+    margin-top: 20px;
+}
+.header .middle ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.middle ul a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    color: aliceblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.logo ul li img{
+    width: 20vh;
+    margin-top: 20px;
+}
+.logo ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Home{
+    background-color: #DDD0C8;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.Home .left{
+    padding: 20px 30px;
+    margin-left: 180px;
+    margin-top: -150px;
+    font-size: 20px;
+}
+#hell{
+    font-size: 60px;
+    font-family: "Playwrite GB S", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#name{
+    font-size: 40px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+#ui{
+    font-size: 30px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 5px;
+}
+
+#btn{
+    margin-top: 10px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #323232;
+    color: aliceblue;
+}
+.Home .right{
+    width: 30vw;
+    height: 100vh;
+}
+
+.Home .right img{
+    width: 40vh;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.About{
+    background-color: #DDD0C8;
+    margin: 0 400px;
+    padding: 10px 60px;
+    align-content: center;
+    height: 150vh;
+}
+
+.About .image img{
+    width: 40vh;
+    margin-left: 85px;
+}
+.About .image{
+    margin-top: 10px;
+}
+
+.About #me{
+    margin-left: 118px;
+    font-size: 32px;
+}
+#email,#place{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: medium;
+}
+#full{
+    margin-left: 90px;
+    font-size: 30px;
+}
+
+#para1{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 18px;
+    font-style: normal;
+    
+}
+
+.detail{
+    background-color: #DDD0C8;
+    height: 30vh;
+    margin-left: 480px;
+    font-size: 35px;
+}
+.detail #d{
+    margin-left: 100px;
+}
+
+
+
+.Skill{
+    background-color: #DDD0C8;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 18px;
+    font-style: normal;
+    text-decoration: none;
+    padding: 20px 30px;
+    
+}
+.Skill h2{
+    margin-left: 510px;
+    font-weight: 600;
+}
+.Skill h5{
+    margin-left:480px;
+    font-size: large;
+    font-weight: 400;
+    margin-top: 7px;
+}
+.Project{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    background-color: #DDD0C8;
+}
+.Project .parts{
+    width: 35%;
+    background-color: #323232;
+    padding: 28px;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-left: 3px;
+}
+
+#pro{
+    margin-left: 580px;
+}
+
+.Project .parts img{
+    width: 30vh;
+    border: 2px solid whitesmoke;
+}
+
+.Project .parts h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.Project .parts p{
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 18px;
+    font-style: normal;
+}
+
+.Resume{
+    background-color: #DDD0C8;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Resume h2{
+    font-size: 26px;
+    font-family: cursive;
+}
+
+.Resume button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #323232;
+    color: aliceblue;
+}
+
+.Contact{
+    background-color: #DDD0C8;
+    color: black;
+    height: 70vh;
+    width: 100%;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px
+}
+
+.container #b1{
+   width: 200px;
+   padding: 10px 15px;
+}
+.container #btn2{
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #323232;
+    color: aliceblue;
+}
+
+footer{
+    background-color: #323232;
+    color: aliceblue;
+    height: 20vh;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
